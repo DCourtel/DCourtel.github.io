@@ -29,11 +29,11 @@ Syntax highlighted code block
 ```
 
 ```c#
-public DSAccount GetSingleAccount(string distinguishedName)        
+public DSAccount GetSingleAccount(string distinguishedName)
 {
     DSAccount account = null;
     account = this._replicationClient.GetAccount(distinguishedName);
-    return account;        
+    return account;
 }
 ```
 
