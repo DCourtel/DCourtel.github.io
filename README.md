@@ -28,6 +28,15 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
+```c#
+public DSAccount GetSingleAccount(string distinguishedName)        
+{
+    DSAccount account = null;
+    account = this._replicationClient.GetAccount(distinguishedName);
+    return account;        
+}
+```
+
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
